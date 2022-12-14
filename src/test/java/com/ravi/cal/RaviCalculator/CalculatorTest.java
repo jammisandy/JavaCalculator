@@ -6,21 +6,21 @@ import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
 	
-	Calculator cal = new Calculator(2, 3);
+	Calculator cal = new Calculator(3, 2);
 	
     @Test
     public void twoAndThreeIsFive() throws Exception {
-    	assertEquals(cal.addFucn(2, 3),5);
+    	assertEquals(cal.addFucn(3, 2),5);
     }
 
     @Test
     public void threeMinusTwoIsOne() throws Exception {
-        assertEquals(cal.subFucn(4, 3),1);
+        assertEquals(cal.subFucn(3, 2),1);
     }
     
     @Test
     public void threeXThreeIsNine() throws Exception {
-        assertEquals(cal.mulFucn(3, 3), 9);
+        assertEquals(cal.mulFucn(3, 2), 6);
     }
    
 }

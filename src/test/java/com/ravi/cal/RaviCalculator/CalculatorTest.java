@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
 	
-	Calculator cal = new Calculator((2, 3);
+	Calculator cal = new Calculator(2, 3);
 	
     @Test
     public void twoAndThreeIsFive() throws Exception {

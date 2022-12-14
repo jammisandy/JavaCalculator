@@ -15,7 +15,7 @@ public class CalculatorTest {
 
     @Test
     public void threeMinusTwoIsOne() throws Exception {
-        assertEquals(cal.subFucn(2, 3),1);
+        assertEquals(cal.subFucn(2, 2),1);
     }
     
     @Test
